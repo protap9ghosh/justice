@@ -1,0 +1,71 @@
+:root {
+    --button-background-color: #B68C5A;
+    --hover-background-color: #B68C5A;
+    --border-color: #B68C5A;
+    --bs-btn-hover-border-color: #B68C5A;
+    --bs-btn-hover-bg: #B68C5A;
+    --poppins: 'Poppins', sans-serif;
+    --garamond: 'EB Garamond', serif;
+    --font-pr-color: #414040;
+    --font-sc-color: #707070;
+    --footer-bg-color: #111111;
+    --footer-text-color: #CFCFCF;
+}
+
+.main-button {
+    background-color: var(--button-background-color);
+    border: var(--border-color);
+}
+
+/* header area */
+.banner-images {
+    background-image: url("../images/banner.png");
+    height: 550px;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+.button-hover {
+    color: white;
+}
+
+.poppins-font {
+    font-family: 'Poppins', sans-serif;
+}
+
+.garamond-font {
+    font-family: 'EB Garamond', serif;
+}
+
+.text-pr-color {
+    color: var(--font-pr-color);
+}
+
+.text-sc-color {
+    color: var(--font-sc-color);
+}
+
+/* testimonial section */
+.slider-image {
+    height: 550px;
+}
+
+.slider-image-ico-image {
+    width: 80px;
+    height: 80px;
+}
+
+/* faq section */
+.faq-section-imgae {
+    width: 570px;
+    height: 574px;
+}
+
+/* footer section  */
+.footer-bg {
+    background-color: var(--footer-bg-color);
+}
+
+.text-footer-color {
+    color: var(--footer-text-color);
+}
